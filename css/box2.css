@@ -1,0 +1,39 @@
+/* css/box2.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 20px;
+}
+.atas {
+    width: 100%;
+    height: 120px;
+    background-color: #a8e063;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.baris {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.kuning {
+    width: 22%;
+    height: 180px;
+    background-color: #f4f442;
+    border: 1px solid black;
+}
+.oranye {
+    width: 78%;
+    height: 180px;
+    background-color: #ff6624;
+    border: 1px solid black;
+}
+.biru {
+    width: 78%;
+    height: 180px;
+    background-color: #4dd2ff;
+    border: 1px solid black;
+}

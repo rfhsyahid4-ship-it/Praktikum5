@@ -1,0 +1,21 @@
+/* css/flexbox.css (rename dari style.css) */
+header {
+    background-color: aquamarine;
+    margin: -8px -8px 20px -8px;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    list-style: none;
+    margin: 0;
+}
+header li {
+    margin: 0 12px;
+}
+header li.logo {
+    margin-right: auto;
+}
+header li.logo img {
+    width: 50px;
+}

@@ -1,0 +1,50 @@
+/* css/box3.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 20px;
+}
+.baris-atas, .baris-tengah {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.kuning {
+    width: 20%;
+    height: 80px;
+    background-color: #f4f442;
+    border: 1px solid black;
+}
+.oranye {
+    width: 80%;
+    height: 80px;
+    background-color: #ff6624;
+    border: 1px solid black;
+}
+.hijau {
+    width: 20%;
+    height: 450px;
+    background-color: #a8e063;
+    border: 1px solid black;
+}
+.abu {
+    width: 60%;
+    height: 450px;
+    background-color: #d3d9de;
+    border: 1px solid black;
+}
+.biru-muda {
+    width: 20%;
+    height: 450px;
+    background-color: #4dd2ff;
+    border: 1px solid black;
+}
+.baris-bawah {
+    width: 100%;
+    height: 70px;
+    background-color: #0066ff;
+    border: 1px solid black;
+}
